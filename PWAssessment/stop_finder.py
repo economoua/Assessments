@@ -32,7 +32,7 @@ class StopFinder:
 
             search_button = Button(top, 
                 text="Search Stops", 
-                command=lambda: [self.print_stops(entryvalue, "All routes found on route \"" + entryvalue.get() + "\":\n"), top.destroy()])
+                command=lambda: [self.print_stops(entryvalue, "All stops found on route \"" + entryvalue.get() + "\":\n"), top.destroy()])
             search_button.pack()
             exit_button = Button(top, text="Back", command=lambda: top.destroy())
             exit_button.pack()
