@@ -44,7 +44,7 @@ entry.grid(row=10, column=1)
 
 entry.bind("<FocusIn>", clear)
 
-search_button = Button(root, text="Search Stops", command=lambda: stop_finder.print_stops(entryvalue, "All routes found on route \"" + entryvalue.get() + "\":\n"))
+search_button = Button(root, text="Search Stops", command=lambda: stop_finder.print_stops(entryvalue, "All stops found on route \"" + entryvalue.get() + "\":\n"))
 search_button.grid(row=11, column=1, pady=3)
 
 
